@@ -4,7 +4,8 @@ ffmpeg-python
 yt-dlp
 opencv-python==4.12.0.88
 Pillow
-torch
-torchvision
+torch==2.8.0
+torchvision==0.23.0
+--extra-index-url https://download.pytorch.org/whl/cu118
 tornado
 imgaug==0.4.0
